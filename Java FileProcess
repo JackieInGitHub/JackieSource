@@ -23,7 +23,7 @@
   
   //向文本（path）追加内容
   
-  	protected void appendFile(String path, String str) {// 将抽奖结果保存到文件中
+  	protected void appendFile(String path, String str) {
 		FileWriter fw;
 		BufferedWriter bf;
 		try {
